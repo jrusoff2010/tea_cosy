@@ -5,19 +5,28 @@ html{
   background-color: black;
   opacity: .9;
   text-align: center;
-}
-.header img{
-  height:50px;
-}
-span{
-  text-decoration: underline;
-}
-.container{
-  display: flex;
+  margin: 0px auto;
 }
 .header{
-  height: 69px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height:69px;
+  margin: 0px 10px;
+  border-bottom: 1px solid seashell;
+  width: 97%;
+  position: fixed;
+  z-index: 10;
+  background-color: black;
 }
-nav{
-  display: inline-flex;
+.header img{
+  height: 50px;
+}
+
+.header span{
+  text-decoration: underline;
+}
+.mission img{
+  margin-top: 51px;
+  position: relative;
 }
