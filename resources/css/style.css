@@ -1,0 +1,38 @@
+html{
+  background-color: black;
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  opactiy:0.9;
+  text-align: center;
+}
+.logo{
+  height: 50px;
+}
+nav{
+  display: inline-flex;
+}
+.header{
+  height:69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.mission{
+  width: 1200px;
+  height: 700px;
+}
+.month{
+  display: flex;
+  width: 1000px;
+}
+.month-pics{
+  justify-content: center;
+}
+.month-pics img{
+  height:200px;
+  width:300px;
+}
