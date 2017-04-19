@@ -36,3 +36,7 @@ nav{
   height:200px;
   width:300px;
 }
+.location{
+  background-image: url(./img-locations-background.jpg);
+  width: 1200px;
+}
