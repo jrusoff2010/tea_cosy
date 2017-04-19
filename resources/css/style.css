@@ -9,3 +9,15 @@ html{
 .header img{
   height:50px;
 }
+span{
+  text-decoration: underline;
+}
+.container{
+  display: flex;
+}
+.header{
+  height: 69px auto;
+}
+nav{
+  display: inline-flex;
+}
