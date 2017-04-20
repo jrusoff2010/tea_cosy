@@ -1,4 +1,4 @@
-html{
+body{
   font-family: Helvetica;
   font-size:22px;
   color:seashell;
@@ -6,10 +6,7 @@ html{
   opacity: .9;
   text-align: center;
   margin: 0px auto;
-  padding: 0 auto;
-}
-body{
-  margin: 0 auto;
+  padding: 0px auto;
 }
 .header{
   display: flex;
@@ -29,7 +26,8 @@ body{
 .header span{
   text-decoration: underline;
 }
-.mission img{
-  margin-top: 51px;
-  position: relative;
+.mission{
+  display:flex;
+  width: 1200px;
+  height: 700px;
 }
